@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npx playwright *)",
+      "Bash(curl -s http://localhost:3000*)",
+      "Bash(mkdir -p shots)",
+      "Bash(git status)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git log *)"
+    ]
+  }
+}
